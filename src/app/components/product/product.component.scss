@@ -1,7 +1,14 @@
 .products {
-  padding: 20px 30px;
-
-  gap: 20px;
   display: flex;
+  padding: 20px 30px;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-around;
+}
+@media (max-width: 740px) {
+  .products {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
 }

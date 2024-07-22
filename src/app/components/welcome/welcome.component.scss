@@ -11,7 +11,7 @@
     gap: 20px;
     .welcome__block__bigtext {
       color: var(--color-text-light);
-      font-size: 8em;
+      font-size: 5em;
     }
     .welcome__block__smalltext {
       color: var(--color-text-light);
@@ -31,23 +31,6 @@
   .welcome {
     flex-direction: column-reverse;
     justify-content: center;
-    height: auto;
     padding: 2px;
-  }
-  .welcome__block__bigtext {
-    color: var(--color-text-light);
-    font-size: 2em;
-  }
-}
-
-@media (max-width: 1024px) {
-  .welcome {
-    justify-content: center;
-    height: auto;
-    padding: 20%;
-  }
-  .welcome__block__bigtext {
-    color: var(--color-text-light);
-    font-size: 2em;
   }
 }

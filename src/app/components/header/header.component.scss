@@ -18,6 +18,10 @@
   background-color: var(--subcolor-text);
   padding: 20px;
   cursor: pointer;
+  a {
+    text-decoration: none;
+    color: var(----color-text-light);
+  }
 }
 
 @media (max-width: 740px) {

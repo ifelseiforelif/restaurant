@@ -1,0 +1,29 @@
+<div class="reservation">
+  <div class="reservation__form">
+    <div class="reservation_title_text">reservation</div>
+    <div class="reservation_title_header">Book Your Table</div>
+    <form [formGroup]="loginForm">
+      <div class="form_elements">
+        <input
+          type="text"
+          formControlName="name"
+          name="name"
+          placeholder="Name"
+        />
+        <input
+          type="email"
+          formControlName="email"
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          type="text"
+          formControlName="persons"
+          name="persons"
+          placeholder="Persons"
+        />
+      </div>
+      <div class="form_btn" (click)="send()">Book A Table</div>
+    </form>
+  </div>
+</div>
