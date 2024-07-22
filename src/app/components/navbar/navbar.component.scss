@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  background-color: var(--base-color-dark);
+  border-top: 1px solid var(--color-text-light);
+  padding: 20px 0 20px 20px;
+  width: 100vw;
+  font-family: var(--font-text);
+}
+
+.navbar__item {
+  padding-right: 25px;
+  a {
+    text-decoration: none;
+    color: var(--color-text-light);
+  }
+}
+@media (max-width: 740px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+}

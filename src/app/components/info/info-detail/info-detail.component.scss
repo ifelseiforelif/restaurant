@@ -1,0 +1,29 @@
+.info__detail {
+  display: flex;
+  gap: 25px;
+}
+.info__detail_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .info__detail_text_bg {
+    font-size: 2em;
+  }
+  .info__detail_text_sm {
+    letter-spacing: 0.2px;
+  }
+}
+
+.info__detail_circle {
+  width: 83px;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-circle);
+}
+.info__detail_circle img {
+  max-width: 100%;
+  max-height: 100%;
+}

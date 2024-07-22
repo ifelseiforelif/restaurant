@@ -1,0 +1,5 @@
+<div class="info">
+  @if(info_object) { @for (info of info_object; track $index) {
+  <app-info-detail [info_object]="info"></app-info-detail>
+  } }
+</div>

@@ -1,0 +1,7 @@
+<div class="navbar">
+  @if(menu_items) { @for (item of menu_items; track $index) {
+  <div class="navbar__item">
+    <a href="{{ item.link }}">{{ item.name }}</a>
+  </div>
+  } }
+</div>

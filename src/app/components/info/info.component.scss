@@ -1,0 +1,16 @@
+.info {
+  background-color: var(--bgcolor-text);
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 740px) {
+  .info {
+    width: 100vw;
+    flex-direction: column;
+    padding-left: 0px;
+    justify-content: center;
+    height: auto;
+  }
+}
